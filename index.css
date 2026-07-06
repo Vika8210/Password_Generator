@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #f0f0f0;
+}
+
+.container {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    text-align: center;
+    width: 280px;
+}
+
+#passwordOutput {
+    font-family: monospace;
+    font-size: 16px;
+    background: #eee;
+    padding: 10px;
+    margin: 15px 0;
+    border-radius: 5px;
+    word-break: break-all;
+}
+
+label {
+    display: block;
+    margin: 8px 0;
+    text-align: left;
+}
+
+#generateBtn {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    background: #4A90E2;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
